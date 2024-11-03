@@ -8,4 +8,18 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
+
+  <repositories>
+    <repository>
+      <url>https://raw.githubusercontent.com/DFKI-MLT/Maven-Repository/main</url>
+    </repository>
+  </repositories>
+
+  <dependencies>
+    <dependency>
+      <groupId>de.dfki.mary</groupId>
+      <artifactId>voice-cmu-slt-hsmm</artifactId>
+      <version>5.2.1</version>
+    </dependency>
+  </dependencies>
 </module>
